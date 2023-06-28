@@ -1,0 +1,79 @@
+.container {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  justify-content: center;
+  background-color: var(--black);
+}
+.leftContainer {
+  width: 50vw;
+  padding: 50px;
+}
+.rightContainer {
+  width: 40vw;
+  object-fit: contain;
+}
+.text1 {
+  font-size: 30px;
+  color: var(--white);
+}
+.text2 {
+  font-size: 30px;
+  color: var(--green);
+}
+.text3 {
+  font-size: 60px;
+  color: var(--green);
+  margin: 15px 0;
+  font-weight: bold;
+}
+.text4 {
+  font-size: 25px;
+  color: var(--white);
+  margin: 15px 0;
+}
+.button {
+  background-color: var(--green);
+  border: none;
+  color: var(--white);
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 20px;
+  font-family: inherit;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px 0 20px 0;
+}
+.button:hover {
+  color: var(--green);
+  background-color: var(--white);
+}
+.social:active,
+.button:active {
+  transform: scale(0.9);
+}
+.socialContainer {
+  display: flex;
+}
+.social:hover {
+  cursor: pointer;
+}
+.social {
+  width: 40px;
+  height: 40px;
+  background-color: var(--green);
+  margin: 20px 20px 20px 0;
+  padding: 10px;
+  border-radius: 50px;
+  align-items: center;
+}
+.button:hover,
+.social:hover {
+  -moz-box-shadow: 0 0 10px #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
+}
+.socialIcon {
+  width: 20px;
+  height: 20px;
+}
